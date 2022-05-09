@@ -1,8 +1,8 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #define OUTPUT_SIZE 32
 #include "test/catch.hpp"
-#include "detect_ranges.h"
-#include "current_sensor.h"
+#include "detectRange.h"
+#include "sensorOutputConversion.h"
 #include <string.h>
 #include <stdio.h>
 
